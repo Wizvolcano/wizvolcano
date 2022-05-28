@@ -1,16 +1,28 @@
-### Hi there 👋
+# Test upload package
 
-<!--
-**Wizvolcano/wizvolcano** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+PyPi: https://pypi.org/project/twizvolcano/
 
-Here are some ideas to get you started:
+สวัสดีจ้าาาา แพ็คนี้คือแพ็คเกจที่อธิบายโปรไฟล์ของนาย Wizvolcano 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### วิธีติดตั้ง
+
+เปิด CMD / Terminal
+
+```python
+pip install twizvolcano
+```
+
+### วิธีใช้งานแพ็คเพจนี้
+
+- เปิด IDLE ขึ้นมาแล้วพิมพ์...
+
+```python
+from volcano import Wizvolcano
+
+    vc = Wizvolcano()
+    vc.show_name()
+    vc.about()
+    vc.show_art()
+```
+
+By: Wizvolcano
